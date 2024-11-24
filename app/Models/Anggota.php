@@ -6,5 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Anggota extends Model
 {
-    //
+    protected $fillable = [
+        'name', 
+        'nim',
+        'kelas',
+        'whatsapp',
+    ];
 }
